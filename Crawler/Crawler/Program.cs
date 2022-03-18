@@ -33,12 +33,19 @@ namespace Crawler
                 var regex = new Regex(@"[a-zA-Z0-9+._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+");
                 MatchCollection matchCollection = regex.Matches(content);
 
-                var set = new HashSet<string>();
+                HashSet<string> set = new HashSet<string>();
 
                 if (Convert.ToBoolean(matchCollection.Count))
                 {
-                    string[] fAddr = matchCollection.Cast<Match>().Select(x => x.Value).ToArray();
-                    Array.ForEach(fAddr.Distinct().ToArray(), val => Console.WriteLine(val));
+                    foreach (var el in matchCollection)
+                    {
+                        set.Add(el.ToString());
+                    }
+
+                    foreach (var hashh in set)
+                    {
+                        Console.WriteLine(hashh);
+                    }
                 }
                 else
                 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\APBD git\\Crawler\\Crawler\\Crawler\\Crawler.csproj": {}
+    "Z:\\APBD git\\Zadanie 1\\Crawler\\Crawler\\Crawler.csproj": {}
   },
   "projects": {
-    "Z:\\APBD git\\Crawler\\Crawler\\Crawler\\Crawler.csproj": {
+    "Z:\\APBD git\\Zadanie 1\\Crawler\\Crawler\\Crawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\APBD git\\Crawler\\Crawler\\Crawler\\Crawler.csproj",
+        "projectUniqueName": "Z:\\APBD git\\Zadanie 1\\Crawler\\Crawler\\Crawler.csproj",
         "projectName": "Crawler",
-        "projectPath": "Z:\\APBD git\\Crawler\\Crawler\\Crawler\\Crawler.csproj",
+        "projectPath": "Z:\\APBD git\\Zadanie 1\\Crawler\\Crawler\\Crawler.csproj",
         "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
-        "outputPath": "Z:\\APBD git\\Crawler\\Crawler\\Crawler\\obj\\",
+        "outputPath": "Z:\\APBD git\\Zadanie 1\\Crawler\\Crawler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
